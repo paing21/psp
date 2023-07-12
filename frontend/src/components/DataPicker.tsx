@@ -12,7 +12,7 @@ interface Props {
 }
 
 const DataPicker = ({ value, handleDateChange, availbility }: Props) => {
-  console.log("ava", availbility);
+  console.log("av", availbility);
   const currentMonth = availbility?.find(
     (item) => item.date === value?.format("DD-MM-YYYY")
   );
